@@ -1,0 +1,116 @@
+<HTML>
+<HEAD>
+    <TITLE>Sqrt</TITLE>
+	<link href="result.css" rel="stylesheet" type="text/css">
+	
+</HEAD>
+	<BODY background="fon.jpg" height=2000px width=1900px>
+	<a href="https://front.codes/" class="logo" target="_blank">
+		
+	</a>
+
+  	<input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+  	<label for="menu-icon"></label>
+  	<nav class="nav"> 		
+  		<ul class="pt-5">
+  			<li><a href="#">О нас</a></li>
+  			<li><a href="result_project.html">Бронирование</a></li>
+  			<li><a href="#">Контакты</a></li>
+  			<li><a href="#">Местоположение</a></li>
+  		</ul>
+  	</nav>
+	<div class="header"><header>
+	<div id="text">INAZUMA</div>
+	<div id="text1">Быстрое и удобное бронирование столиков с помощью 3D модели </div>
+	<div id="text2">Удобная платформа для выбора столика,удаленно</div>
+	<div id="button"><div id="inside_text"><a href="rezult_project.html">Забронировать столик</a></div></div>
+	<div id="text3">Следите за нами в соц.сетях</div>
+	
+		<div class="icon">
+		<div id="icon1"><a href="#"><img src="insta.png" height=50px ></a></div>
+		<div id="icon2"><a href="#"><img src="twit.png" height=50px></a></div>
+		<div id="icon3"><a href="#"><img src="face.png" height=50px></a></div>
+		<div id="icon4"><a href="#"><img src="vk.png" height=50px></a></div>
+		</div>
+	</div>
+    
+	
+	<div id="text6">Наш ассортимент</div>
+	<div id="icon_eat"><img src="eat.png" width=150px></div>
+	<div id="icon_sushi"><img src="sushi.png" width=150px></div>
+	<div id="icon_rolls"><img src="rolls.png" width=150px></div>
+	<div id="icon_drink"><img src="drink.png" width=150px></div>
+	<div id="icon_sweet"><img src="dango.png" width=150px></div>
+	<div id="icon_sauces"><img src="sauces.png" width=150px></div>
+	
+	<div id="text_eat1"><a href="#">Бэнто</a></div>
+	<div id="text_eat2"><a href="#">Суши</a></div>
+	<div id="text_eat3"><a href="#">Роллы</a></div>
+	<div id="text_eat4"><a href="#">Напитки</a></div>
+	<div id="text_eat5"><a href="#">Десерты</a></div>
+	<div id="text_eat6"><a href="#">Соусы</a></div>
+	
+	<div id="text7">Самые популярные блюда нашего заведения</div>
+	
+	<div class="image_fav">
+		<div id="image_fav1"><img src="bento.jpg" width=547px height=401px></div>
+		<div id="image_fav2"><img src="photo.jpg" width=547px height=401px></div>
+		<div id="image_fav3"><img src="scale_1200.jpg" width=547px height=401px></div>
+	</div>
+	
+	<div class="place">
+		<div id="first_place"><img src="1.png" width=150px></div>
+		<div id="second_place"><img src="2.png"width=150px></div>
+		<div id="third_place"><img src="3.png"width=150px></div>
+	</div>
+	<div id="mako">Макуноути <br>
+	<div id="info1">-популярный тип японского бенто который состоит в <br> основном из риса, а также рыбы, мяса, солений, яиц, овощей и умэбоши (соленая маринованная слива). <br> Есть также другие виды еды, <br> такие как каштаново-рисовые суши, мясные и рисовые запеканки.</div>
+	</div>
+	<div id="tako">Тайяки с джемом анко <br>
+	<div id="info2">-оригинальная японская сладость,напоминающая наши орешки со сгущенкой.
+					Японцы делают свое печенье <br>в форме большой рыбки с наполнителем.Сначала довольно жидкое тесто наливают в одну половинку, <br>когда оно поджарится, кладут начинку. 
+	</div>
+	</div>
+	
+	<div id="dango">Данго в сладком соусе
+		<div id="info3">-японские клёцки или колобки из клейких сортов риса. <br>Обычно их надевают на палочку и покрывают пастой анко, мукой кинако, либо жарят. </div>
+	</div>
+	
+	<div id="new"><img src="new.png"></div>
+	
+	<div id="text8">Наша 3D модель</div>
+	
+	<div id="model1"><img src="one.png" width=1133px height=638px></div>
+	<div id="arrows1"><img src="arrows.png" width=150px></div>
+	<div id="text9">
+3D модель полностью <br> соответсвует ресторанной территории:<br>
+-стулья;<br>
+-столы;<br>
+-скатерти;<br>
+-полотенца;<br>
+-гирлянды;<br>
+-лампы;<br>
+-флора и т.д.</div>
+	<div id="model2"><img src="two.png" width=1133px height=638px></div>
+	<div id="arrows2"><img src="arrows.png" width=150px></div>
+	<div id="text10">Перейдя на вкладку Бронирование,вы сможете посмотреть на фотографии модели с разных ракурсов и выбрать любой столик.
+Более подробная информация
+о бронировании и просмотре  модели будет размещена в  вышеупомянутой вкладке.</div>
+
+	<footer id="footer_1">
+		<div id="text_final">Подписывайтесь на наши соц.сети</div>
+		<div id="icon_footer">
+		<div id="icon_first"><img src="insta.png" height=30px ></div>
+		<div id="icon_second"><img src="twit.png" height=30px></div>
+		<div id="icon_third"><img src="face.png" height=30px></div>
+		<div id="icon_fourth"><img src="vk.png" height=30px></div>
+		</div>
+		<div id="text_final2">INAZUMA</div>
+		<div id="text_final3">Сеть ресторанов</div>
+		<div id="text+final4">Свяжитесь с нами:<br>
++777 789 1435<br>
++7714 33 3 98 95</div>
+		<div id="copyright">Copyright 2022 © inazuma.com</div>
+	</footer>
+	</BODY>
+	</HTML>

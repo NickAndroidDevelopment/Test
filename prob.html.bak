@@ -1,0 +1,23 @@
+<HTML>
+<HEAD>
+    <TITLE>Sqrt</TITLE>
+	<link href="prob.css" rel="stylesheet" type="text/css">
+	<script src="prob.js"></script>
+	
+</HEAD>
+	<BODY>
+	<!– Триггер/Открытие окна –>
+<button id=”myBtn”>Open Modal</button>
+
+<!– Модальное диалоговое окно –>
+<div id=”myModal” class=”modal”>
+<!– Содержание –>
+<div class=”modal-content”>
+<span class=”close”>&times;</span>
+<iframe> вставить код iframe вашей формы ClickDimensions
+</iframe>
+</div>
+</div>
+
+	</BODY>
+	</HTML>

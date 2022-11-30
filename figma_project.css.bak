@@ -1,0 +1,785 @@
+body{
+	margin:0;
+	
+}
+.header{
+	background:#E0FFFF;
+	margin-right:0px;
+	border-radius: 0;
+	background-image:url(image.jpg);
+}
+
+
+#text{
+	/* Style for "INAZUMA" */
+	width: 322px;
+	height: 55px;
+	color: white;
+	font-family: Palatino Linotype;
+	font-size: 70px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	text-transform: uppercase;
+	/* Text style for "INAZUMA" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	position:relative;
+	top:20px;
+	left:30px;
+}
+#text1{
+	/* Style for "Быстрое и" */
+	width: 932px;
+	height: 112px;
+	color: #ffffff;
+	font-family: Palatino Linotype;
+	font-size: 52px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	/* Text style for "Быстрое и" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	position:relative;
+	top:40px;
+	left:30px;
+}
+#text2{
+	/* Style for "Удобная пл" */
+	width: 675px;
+	height: 26px;
+	color: #ffffff;
+	font-family: Palatino Linotype;
+	font-size: 25px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	/* Text style for "Удобная пл" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	position:relative;
+	top:60px;
+	left:30px;
+}
+#button{
+	/* Style for "Rectangle" */
+	width: 412px;
+	height: 71px;
+	border-radius: 30px;
+	background-color: #833c3c;
+	/* Style for "Заброниров" */
+	position:relative;
+	top:100px;
+	left:30px;
+	color: #ffffff;
+	font-family: Palatino Linotype;
+	font-size: 30px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: center;
+	/* Text style for "Заброниров" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+}
+#inside_text a{
+	position:relative;
+	top:13px;
+	color:white;
+}
+#inside_text {
+	color: #00bfff; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+#inside_text:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -14px;
+    width: 3px;
+    height: 2px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+#inside_text:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+    height: 2px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+#text3{
+	/* Style for "Следите за" */
+	width: 457px;
+	height: 28px;
+	color: #ffffff;
+	font-family: Palatino Linotype;
+	font-size: 30px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	/* Text style for "Следите за" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	position:relative;
+	top:110px;
+	left:30px;
+}
+#icon1{
+	position:relative;
+	top:130px;
+	left:30px;
+}
+#icon2{
+	position:relative;
+	top:80px;
+	left:110px;
+}
+#icon3{
+	position:relative;
+	top:30px;
+	left:190px;
+}
+#icon4{
+	position:relative;
+	top:-20px;
+	left:270px;
+}
+#text6{
+	/* Style for "Наш ассорт" */
+	width: 372px;
+	height: 39px;
+	color: #000000;
+	font-family: Palatino Linotype;
+	font-size: 40px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	/* Text style for "Наш ассорт" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align:center;
+	position:relative;
+	left:650px;
+}
+#icon_eat{
+	position:relative;
+	left:300px;
+	bottom:-30px;
+}
+#icon_sushi{
+	position:relative;
+	left:500px;
+	bottom:110px;
+}
+#icon_rolls{
+	position:relative;
+	left:700px;
+	bottom:275px;
+}
+#icon_drink{
+	position:relative;
+	left:900px;
+	bottom:440px;
+}
+#icon_sweet{
+	position:relative;
+	left:1100px;
+	bottom:570px;
+}
+#icon_sauces{
+	position:relative;
+	left:1300px;
+	bottom:735px;
+}
+#text_eat1{
+	/* Style for "Бэнто" */
+	width: 119px;
+	height: 31px;
+	color: #000000;
+	font-family: Palatino Linotype;
+	font-size: 40px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	/* Text style for "Бэнто" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	position:relative;
+	left:325px;
+	bottom:688px;
+	
+}
+#text_eat1 {
+	color: #00bfff; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+#text_eat1:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -14px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+#text_eat1:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+#text_eat2{
+	/* Style for "Бэнто" */
+	width: 119px;
+	height: 31px;
+	color: #000000;
+	font-family: Palatino Linotype;
+	font-size: 40px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	/* Text style for "Бэнто" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	position:relative;
+	left:528px;
+	bottom:722px;
+}
+#text_eat2 {
+	color: #00bfff; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+#text_eat2:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -14px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+#text_eat2:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+#text_eat3{
+	/* Style for "Бэнто" */
+	width: 119px;
+	height: 31px;
+	color: #000000;
+	font-family: Palatino Linotype;
+	font-size: 40px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	/* Text style for "Бэнто" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	position:relative;
+	left:731px;
+	bottom:755px;
+}
+#text_eat3 {
+	color: #00bfff; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+#text_eat3:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -14px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+#text_eat3:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+#text_eat4{
+	/* Style for "Бэнто" */
+	width: 119px;
+	height: 31px;
+	color: #000000;
+	font-family: Palatino Linotype;
+	font-size: 40px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	/* Text style for "Бэнто" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	position:relative;
+	left:920px;
+	bottom:786px;
+}
+#text_eat4{
+	color: #00bfff; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+#text_eat4:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -14px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+#text_eat4:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+transition: width 0.5s;  /* Время эффекта */}
+#text_eat5{
+	/* Style for "Бэнто" */
+	width: 119px;
+	height: 31px;
+	color: #000000;
+	font-family: Palatino Linotype;
+	font-size: 40px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	/* Text style for "Бэнто" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	position:relative;
+	left:1120px;
+	bottom:819px;
+}
+#text_eat5{
+	color: #00bfff; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+#text_eat5:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -14px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+#text_eat5:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+transition: width 0.5s;  /* Время эффекта */}
+#text_eat6{
+	/* Style for "Бэнто" */
+	width: 119px;
+	height: 31px;
+	color: #000000;
+	font-family: Palatino Linotype;
+	font-size: 40px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	/* Text style for "Бэнто" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	position:relative;
+	left:1320px;
+	bottom:850px;
+}
+#text_eat6 {
+	color: #00bfff; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+#text_eat6:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -14px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+#text_eat6:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+transition: width 0.5s;  /* Время эффекта */}
+#text7{
+	/* Style for "Самые попу" */
+	width: 958px;
+	height: 41px;
+	color: #000000;
+	font-family: Palatino Linotype;
+	font-size: 40px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	/* Text style for "Самые попу" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	position:relative;
+	left:500px;
+	bottom:810px;
+	
+}
+#image_fav1{
+		
+	height:401px;
+	width:547px;
+	position:relative;
+	left:40px;
+	bottom:780px;
+	box-shadow: 20px 20px 20px;
+	
+}
+#image_fav2{
+	height:401px;
+	width:547px;
+	position:relative;
+	left:670px;
+	bottom:1181px;
+	box-shadow: 20px 20px 20px;
+}
+#image_fav3{
+	height:401px;
+	width:547px;
+	position:relative;
+	left:1250px;
+	bottom:1581px;
+	box-shadow: 20px 20px 20px;
+}
+.place{
+	position:relative;
+	left:1250px;
+	bottom:1581px;
+	
+}
+#first_place{
+	position:relative;
+	right:1040px;
+	bottom:-5px;
+}
+#second_place{
+	position:relative;
+	right:410px;
+	bottom:145px;
+}
+#third_place{
+	position:relative;
+	left:195px;
+	bottom:295px;
+}
+#mako{
+	/* Style for "Макуноути" */
+	width: 252px;
+	height: 43px;
+	color: #000000;
+	font-family: Palatino Linotype;
+	font-size: 45px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	/* Text style for "Макуноути" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	position:relative;
+	left:170px;
+	bottom:1870px;
+}
+#info1{
+	font-size: 20px;
+}
+#info2{
+	font-size: 20px;
+}
+#tako
+{
+	/* Style for "Макуноути" */
+	width: 252px;
+	height: 43px;
+	color: #000000;
+	font-family: Palatino Linotype;
+	font-size: 45px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	/* Text style for "Макуноути" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	position:relative;
+	left:800px;
+	bottom:1920px;
+}
+#dango{
+	/* Style for "Макуноути" */
+	width: 252px;
+	height: 43px;
+	color: #000000;
+	font-family: Palatino Linotype;
+	font-size: 45px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	/* Text style for "Макуноути" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	position:relative;
+	left:1435px;
+	bottom:1970px;
+}
+#info3{
+	font-size: 20px;
+}
+#new{
+	/* Style for "Vector" */
+	width: 150px;
+	height: 150px;
+	position:relative;
+	left:830px;
+	bottom:1500px;
+}
+#text8{
+	/* Style for "Наша 3D мо" */
+	width: 522px;
+	height: 54px;
+	color: #000000;
+	font-family: Palatino Linotype;
+	font-size: 60px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	/* Text style for "Наша 3D мо" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	position:relative;
+	left:680px;
+	bottom:1520px;
+	
+}
+#model1{
+	/* Style for "one 1" */
+	width: 1133px;
+	height: 638px;
+	border-radius: 50px;
+	position:relative;
+	left:680px;
+	bottom:1450px;
+	box-shadow: 20px 20px 20px;
+}
+#arrows1{
+	width: 150px;
+	height: 150px;
+	position:relative;
+	bottom:2100px;
+}
+#text9{
+	/* Style for "Rectangle" */
+	width: 600px;
+	height: 300px;
+	background-color: #edc3a6;
+	border-radius: 0px 50px 0px 50px;
+	/* Style for "3D модель" */
+	color: #000000;
+	font-family: Palatino Linotype;
+	font-size: 23px;
+	padding-left:15px;
+	padding-top:15px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	/* Text style for "3D модель" */
+	font-family: Palatino Linotype;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	/* Text style for ",  , -стул" */
+	font-family: Palatino Linotype;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	position:relative;
+	bottom:2070px;
+	margin-left:10px;
+	
+}
+#model2{
+	width: 1133px;
+	height: 638px;
+	border-radius: 50px;
+	position:relative;
+	left:0px;
+	bottom:1850px;
+	box-shadow:20px 20px 20px;
+	margin-left:10px;
+}
+#arrows2{
+	width: 150px;
+	height: 150px;
+	position:relative;
+	bottom:2490px;
+	left:1400px;
+}
+#text10{
+	/* Style for "Rectangle" */
+	width: 600px;
+	height: 220px;
+	padding-left:15px;
+	padding-top:15px;
+	background-color: #edc3a6;
+	border-radius: 0px 50px 0px 50px;
+	/* Style for "Перейдя на" */
+	color: #000000;
+	font-family: Palatino Linotype;
+	font-size: 25px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	position:relative;
+	bottom:2470px;
+	left:1180px;
+}
+#footer_1{
+	background:linear-gradient(to right, #FF7F50, #FAFAD2);
+	color:white;
+	height:95px;
+	width:100%;
+	float:left;
+	border-top:3px solid orange;
+	margin-right:15px;
+	font-family:Palatino Linotype;
+	color:black;
+	position:relative;
+	bottom:2000px;
+	margin-bottom:0;
+	
+}
+a{
+	text-decoration:none;
+}
